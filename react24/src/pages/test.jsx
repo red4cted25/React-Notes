@@ -1,5 +1,5 @@
 import { BsSearchHeartFill } from "react-icons/bs";
-import Question from './Question'
+import Question from '../components/Question'
 
 function Test() {
     let sports = "Baseball"
@@ -13,7 +13,7 @@ function Test() {
         <p>Hello, my name is Nico Diaz</p>
         <h3>{sports}</h3>
         <img src={src} alt={alt} width={w} height={h} />
-        <button ><BsSearchHeartFill size="500px" style={{backgroundColor: 'rgb(180, 56, 210)'}}/></button>
+        <button ><BsSearchHeartFill size="500px" style={{backgroundColor: 'rgb(180, 56, 210)', color: 'rgb(255,165,0)'}}/></button>
         <Question title="Hannibal" info={info} />
     </>
     )
